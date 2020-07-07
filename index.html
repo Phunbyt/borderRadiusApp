@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radius App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="app">
+        <div class="heading">
+            <h2>Border Radius App</h2>
+        </div>
+
+        <div class="shape">
+            <div class="top-view">
+                <div class="top-left fields">
+                    <h4>top left</h4>
+                    <input type="text" value="0">
+                </div>
+
+                <div class="color fields">
+                    <h4>color</h4>
+                    <input type="color" name="" id="">
+                </div>
+
+                <div class="style fields">
+                    <h4>Style</h4>
+                    <select name="style-select" class="style-select">
+                        <option value="dashed">dashed</option>
+                        <option value="dotted">dotted</option>
+                        <option value="double">double</option>
+                        <option value="groove">groove</option>
+                        <option value="inset">inset</option>
+                        <option value="outset">outset</option>
+                        <option value="ridge">ridge</option>
+                        <option value="solid">solid</option>
+                    </select>
+                </div>
+
+                <div class="top-right fields">
+                    <h4>top right</h4>
+                    <input type="text" value="0">
+                </div>
+            </div>
+
+            <div class="middle-view">
+                <div class="box">
+                    <p>Border: <span class="border-thickness">2px</span> <span class="border-type">solid</span> <span class="border-color">red</span>;</p>
+                    <p>Border-radius: <span class="top-left-text">0px</span>
+                        <span class="top-right-text">0px</span>
+                        <span class="bottom-left-text">0px</span>
+                        <span class="bottom-right-text">0px</span>;</p>
+                </div>
+            </div>
+
+
+            <div class="bottom-view">
+                <div class="bottom-left fields">
+                    <h4>bottom left</h4>
+                    <input type="text" value="0">
+                </div>
+
+                <div class="thick fields">
+                    <h4>thickness</h4>
+                    <input type="text" value="1">
+                </div>
+
+
+                <div class="bottom-right fields">
+                    <h4>bottom right</h4>
+                    <input type="text" value="0">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
